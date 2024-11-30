@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/onex-icon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Admin</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="productForm">
+            <label for="">Name</label>
+            <input type="text" id="productName"  class="productInput" required>
+            <br>
+            <label for="">Price</label>
+            <input type="text" id="productPrice" class="productInput" required>
+            <br>
+            <label for="">Description</label>
+            <input type="text" id="productDescription" class="productInput" required>
+            <br>
+            <button type="submit" id="submit">Add</button>
+        </form>
+
+        <h2>Products List</h2>
+        <div class="product-items"></div> <!-- Added this line -->
+    </div>
+    <script src="./admin.js"></script>
+</body>
+</html>
